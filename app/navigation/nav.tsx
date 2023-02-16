@@ -15,9 +15,9 @@ export default function Navbar(){
               </div>
               <div className="w-full">
                 <ul className="w-full flex items-center justify-start gap-5 cursor-pointer text-black text-lg">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Work with us</li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/workwithus">Work with us</Link></li>
                     <li className="underline underline-offset-8 decoration-green-500">Catalogue</li>
                 </ul>
               </div>
