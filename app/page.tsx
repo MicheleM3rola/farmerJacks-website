@@ -1,10 +1,14 @@
 import Image from 'next/image'
+import Hero from './hero/Hero'
+
 
 
 export default function Home() {
   return (
-    <main className='flex items-center justify-center h-screen'>
-     <h1 className='text-red-600 text-4xl'>Start of the project</h1>
+    <main className='flex flex-col items-center justify-center'>
+      <Hero/>
+     
+     
     </main>
   )
 }

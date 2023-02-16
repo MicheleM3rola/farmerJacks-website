@@ -6,7 +6,7 @@ import FjLogo from '../../public/fjcentro.jpg'
 export default function Navbar(){
 
     return(
-        <nav className="w-full bg-slate-300 p-6 flex justify-center items-center">
+        <nav className="w-full  p-6 flex justify-center items-center absolute z-50">
             <div className="w-5/6 flex items-center justify-between">
               <div className="w-full">
               <Image src={FjLogo} alt="Logo" width={80} height={80} className="rounded-lg"/>
