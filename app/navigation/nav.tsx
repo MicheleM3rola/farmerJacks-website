@@ -3,6 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import FjLogo from '../../public/fjcentro.jpg'
 
+
 export default function Navbar(){
 
     return(
