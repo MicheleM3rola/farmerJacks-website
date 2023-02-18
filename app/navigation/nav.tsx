@@ -15,7 +15,7 @@ export default function Navbar(){
 
               </div>
               <div className="w-full">
-                <ul className="w-full flex items-center justify-start gap-5 cursor-pointer text-black text-lg">
+                <ul className="w-full flex items-center justify-start gap-5 cursor-pointer text-black text-lg font-cinzelFont font-normal">
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/workwithus">Work with us</Link></li>
