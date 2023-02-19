@@ -11,7 +11,7 @@ export default function Home() {
           <section>
            <small>At Centro</small>
            <h2> Indipendent Farmer Jack's</h2>
-           <p> An Indipendent Family Bussiness situated in Edinburg Road 51 Forrestfield offering the best prices without compromise </p>
+           <p> An Indipendent Family Bussiness situated in Edinburg Road 51 Forrestfield offering the best prices without compromises </p>
           </section>
      </main>
      
