@@ -14,6 +14,12 @@ module.exports = {
         navbkg: "#475159",
         bkgpic: "#EFF3F6",
       },
+      dropShadow: {
+        "text-sm": "1px 1px 0px rgba(0, 0, 0, 0.90)",
+        "text-md": "-2px 4px 14px rgba(0, 224, 99, 0.55)",
+        "text-lg": "1px 4px 0px rgba(0, 0, 0, 0.90)",
+      },
+     
     },
   },
   plugins: [],
