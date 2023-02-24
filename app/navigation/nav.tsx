@@ -2,7 +2,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import FjLogo from '../../public/fjcentro.jpg'
+import FjLogo from '../../public/fjcentro.png'
 
 
 
@@ -12,7 +12,7 @@ export default function Navbar(){
 
     return(
         <nav className="flex justify-between items-center lg:absolute w-[92%] lg:left-[4%] mx-auto  z-50 py-2 lg:py-7">
-            <div className="w-full flex justify-start ">
+            <div className="w-full flex justify-start lg:justify-end">
                 
                     <Image src={FjLogo} alt="Logo" width={68} height={68} className="rounded-lg"/>
                 
