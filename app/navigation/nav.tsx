@@ -14,7 +14,7 @@ export default function Navbar(){
         <nav className="flex justify-between items-center lg:absolute w-[92%] lg:left-[4%] mx-auto  z-50 py-2 lg:py-7">
             <div className="w-full flex justify-start lg:justify-end">
                 
-                    <Image src={FjLogo} alt="Logo" width={68} height={68} className="rounded-lg"/>
+                    <Image src={FjLogo} alt="Logo" width={90} height={90} className="rounded-lg bg-black "/>
                 
               
               
