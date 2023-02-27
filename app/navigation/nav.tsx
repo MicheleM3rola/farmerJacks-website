@@ -11,15 +11,15 @@ export default function Navbar(){
     const[toggleClass,setToggleClass]=useState(false)
 
     return(
-        <nav className="flex justify-between items-center lg:absolute w-[92%] lg:left-[4%] mx-auto  z-50 py-2 lg:py-7">
-            <div className="w-full flex justify-start lg:justify-end">
+        <nav className="flex justify-end selection: items-center lg:absolute w-[92%] lg:left-[4%] mx-auto  z-50 py-2 lg:py-7">
+            {/*<div className="w-full flex justify-start lg:justify-end">
                 
-                    <Image src={FjLogo} alt="Logo" width={130} height={130} className="rounded-lg "/>
+                    <Image src={FjLogo} alt="Logo" className="rounded-lg w-20 h-20 md:w-32 md:h-32 "/>
                 
               
               
 
-              </div>
+    </div>*/}
               <div className="flex items-center gap-6 lg:hidden">
                     <button className="cursor-pointer" onClick={()=>{
                         setToggleClass(!toggleClass)
@@ -35,7 +35,7 @@ export default function Navbar(){
               </div>
             
              
-              <div className={  `bg-bkgpic lg:bg-transparent duration-500 lg:static absolute lg:min-h-fit min-h-[60vh] ${toggleClass ? 'top-[10%]': 'top-[-100%]'} left-0 w-full flex items-center` }>
+              <div className={  `bg-bkgpic lg:bg-transparent duration-500 lg:static absolute lg:min-h-fit min-h-[60vh] ${toggleClass ? 'top-[11%]': 'top-[-100%]'} left-0 w-full flex items-center` }>
                 <ul className="w-full flex lg:flex-row flex-col items-center lg:justify-end  gap-5 cursor-pointer text-black text-base lg:text-sm xl:text-lg  font-cinzelFont font-normal">
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/about">About</Link></li>

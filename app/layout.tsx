@@ -1,3 +1,4 @@
+
 import './globals.css'
 import {Cinzel} from "@next/font/google"
 
@@ -25,9 +26,11 @@ export default function RootLayout({
       <head/>
    
       <body>
-      <Navbar/>
+      
+         <Navbar/>
       
         {children}
+      
         </body>
     </html>
   )
