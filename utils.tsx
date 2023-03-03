@@ -12,37 +12,44 @@ export const ImagesData=[
     {
         src:Img1,
         alt:"image1",
-        title:"example"
+        title:"example",
+        id:1
     },
     {
         src:Img2,
         alt:"image2",
-        title:"example"
+        title:"example",
+        id:2
     },
     {
         src:Img3,
         alt:"image3",
-        title:"example"
+        title:"example",
+        id:3
     },
     {
         src:Img4,
         alt:"image4",
-        title:"example"
+        title:"example",
+        id:4
     },
     {
         src:Img5,
         alt:"image5",
-        title:"example"
+        title:"example",
+        id:5
     },
     {
         src:Img6,
         alt:"image6",
-        title:"example"
+        title:"example",
+        id:6
     },
     {
         src:Img7,
         alt:"image7",
-        title:"example"
+        title:"example",
+        id:7
     },
 
 ]

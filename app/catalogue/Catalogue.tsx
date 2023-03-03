@@ -10,11 +10,11 @@ import logo from '../../public/fjBan.jpg'
 export default function Catalogue(){
 
     return(
-        <section className="h-screen flex flex-col justify-center items-center w-full">
+        <section className="flex flex-col justify-center items-center w-full">
            
             <h1 className="text-green-600 text-5xl font-cinzelFont font-normal mb-32 ">This week’s catalogue</h1>
-            <div className="flex justify-center items-center w-full h-full">
-            <div className=" flex-1 h-full flex flex-col justify-center items-center">
+            <div className="flex justify-center items-center w-full h-2/3">
+            <div className="w-1/2 h-full flex flex-col justify-center items-center">
             <p> We also have a lot of different other specials, that's include :</p>
             <ul>
                 <li>Manager Specials</li>
