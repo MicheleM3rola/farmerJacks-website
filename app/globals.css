@@ -3,20 +3,14 @@
 @tailwind utilities;
 
 @layer utilities {
-  .perspective {
-    perspective: 100px;
+  .box {
+    -webkit-clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
   }
-
-  .preserve-3d {
-    transform-style: preserve-3d;
-  }
-
-  .distance-1 {
-    transform: translateZ(-100px) scale(2);
-  }
-
-  .distance-2 {
-    transform: translateZ(-50px) scale(1.5);
+  .boxTwo {
+    --mask: conic-gradient(from -142.5deg at right,#0000,#000 1deg 104deg,#0000 105deg) 50%/100% 28.67em;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
   }
 }
 
@@ -107,13 +101,13 @@ display: none;
 }
 
 html {
-  max-width: 100vw;
+  
   overflow-x: hidden;
 }
 
 body {
-  background-color: #EFF3F6;
-  overflow: hidden;
+  background-color: white;
+ 
 }
 
 a {

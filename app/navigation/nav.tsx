@@ -35,8 +35,8 @@ export default function Navbar(){
               </div>
             
              
-              <div className={  `bg-bkgpic lg:bg-transparent duration-500 lg:static absolute lg:min-h-fit min-h-[60vh] ${toggleClass ? 'top-[11%]': 'top-[-100%]'} left-0 w-full flex items-center` }>
-                <ul className="w-full flex lg:flex-row flex-col items-center lg:justify-end  gap-5 cursor-pointer text-black text-base lg:text-sm xl:text-lg  font-cinzelFont font-normal">
+              <div className={  `bg-bkgpic lg:bg-transparent duration-500 lg:static absolute lg:min-h-fit min-h-[60vh] ${toggleClass ? 'top-[11%]': 'top-[-100%]'} left-0 w-full flex items-center z-50` }>
+                <ul className="w-full flex lg:flex-row flex-col items-center lg:justify-end  gap-5 cursor-pointer text-white text-base lg:text-sm xl:text-lg  font-cinzelFont font-normal">
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/about">About</Link></li>
                     <li><Link href="/workwithus">Work with us</Link></li>

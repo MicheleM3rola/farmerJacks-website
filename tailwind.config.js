@@ -13,10 +13,11 @@ module.exports = {
       screens: {
         xs: "425px",
       },
+      
       colors: {
         navbkg: "#475159",
         bkgpic: "#EFF3F6",
-        logoColor:"rgb(119,226,100)"
+        logoColor:"rgb(71,81,91)"
       },
       dropShadow: {
         "text-sm": "1px 1px 0px rgba(0, 0, 0, 0.90)",
@@ -36,5 +37,5 @@ module.exports = {
      
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

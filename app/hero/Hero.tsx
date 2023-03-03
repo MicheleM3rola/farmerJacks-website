@@ -8,21 +8,21 @@ import fjBanner from "../../public/fjBan.jpg"
 
 export default function Hero(){
     return(
-        <header className=" h-screen flex justify-center items-center w-full">
+        <header className=" h-screen flex justify-center items-center w-full bg-logoColor">
             
             {/*<div className="absolute bg-gradient-to-t inset-0 -bottom-32 top-2/3 md:top-1/3 from-bkgpic to-transparent "></div>*/}
             
-                <div className="h-full w-1/2 relative overflow-hidden before:absolute before:-left-6 before:top-1/2 before:-translate-y-2/4 before:rotate-12 before:bg-black before:w-5/12 before:shadow-slate-200">
+                <div className="h-full w-1/2 relative overflow-hidden box">
                 
-                <Image src={heroImage} className="h-full w-full object-cover aspect-auto object-center " alt="Hero Image" />
+                <Image src={heroImage} className="h-full w-full object-cover" alt="Hero Image" />
                 
             </div>
-            <div className="w-1/2  h-full relative ">
+            <div className="w-1/2  h-full relative">
                 <div className="flex flex-col justify-center items-end h-full mr-16 gap-6" >
                 <Image src={fjBanner} width={700} height={850} alt="fj banner"/>
                 {/*<h1 className="text-black text-7xl font-cinzelFont font-normal ">Farmer Jack's</h1>*/}
                 {/*<small className="text-2xl font-cinzelFont font-normal text-green-600">Forrestfield</small>*/}
-                <p className="text-lg font-cinzelFont font-normal w-1/2 text-right">Farmer Jack's Forrestfield, an indipendent store for over 30 years runned by a family for the families</p>
+                <p className="text-lg text-white font-cinzelFont font-normal w-1/2 text-right">Farmer Jack's Forrestfield, an indipendent store for over 30 years runned by a family for the families</p>
                 </div>
             </div>
             
