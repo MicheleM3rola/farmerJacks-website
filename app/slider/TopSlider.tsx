@@ -7,7 +7,7 @@ export default function TopSlider(){
             <h2 className='text-3xl  tracking-wide drop-shadow-text-md font-cinzelFont mt-3'> Indipendent Farmer Jack's</h2>
             </div>
            
-           <p className='text-muted  font-cinzelFont font-normal'> An Indipendent Family Bussiness situated in Edinburg Road 51 Forrestfield offering the best prices without compromises </p>
+           <p className='text-muted  font-cinzelFont text-lg'> An Indipendent Family Bussiness situated in Edinburg Road 51 Forrestfield offering the best prices without compromises </p>
           </section>
     )
 }

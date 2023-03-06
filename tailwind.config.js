@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      cinzelFont: "var(--cinzel-font)",
+      cinzelFont: "var(--roboto-font)",
     },
     extend: {
       screens: {

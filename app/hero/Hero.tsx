@@ -22,7 +22,7 @@ export default function Hero(){
                 <Image src={fjBanner} width={700} height={850} alt="fj banner"/>
                 {/*<h1 className="text-black text-7xl font-cinzelFont font-normal ">Farmer Jack's</h1>*/}
                 {/*<small className="text-2xl font-cinzelFont font-normal text-green-600">Forrestfield</small>*/}
-                <p className="text-lg text-white font-cinzelFont font-normal w-1/2 text-right">Farmer Jack's Forrestfield, an indipendent store for over 30 years runned by a family for the families</p>
+                <p className="text-xl text-white font-cinzelFont font-normal w-1/2 text-right">Farmer Jack's Forrestfield, an indipendent store for over 30 years runned by a family for the families</p>
                 </div>
             </div>
             

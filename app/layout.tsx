@@ -1,13 +1,13 @@
 
 import './globals.css'
-import {Cinzel} from "@next/font/google"
+import {Roboto} from "@next/font/google"
 
 
 import Navbar from './navigation/nav'
 
-const cinzel = Cinzel({
-  variable:"--cinzel-font",
-  weight:["400"],
+const cinzel = Roboto({
+  variable:"--roboto-font",
+  weight:["400","300"],
   subsets:['latin']
 })
 

@@ -11,7 +11,7 @@ export default function Navbar(){
     //const[toggleClass,setToggleClass]=useState(false)
 
     return(
-        <div className="navbar  ">
+        <div className="navbar z-50 font-cinzelFont ">
   <div className="navbar-start w-full">
     <div className="dropdown w-full">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
