@@ -8,18 +8,46 @@ import FjLogo from '../../public/fjcentro.png'
 
 
 export default function Navbar(){
-    const[toggleClass,setToggleClass]=useState(false)
+    //const[toggleClass,setToggleClass]=useState(false)
 
     return(
-        <nav className="flex justify-end selection: items-center lg:absolute w-[92%] lg:left-[4%] mx-auto  z-50 py-2 lg:py-7">
-            {/*<div className="w-full flex justify-start lg:justify-end">
-                
-                    <Image src={FjLogo} alt="Logo" className="rounded-lg w-20 h-20 md:w-32 md:h-32 "/>
-                
-              
-              
+        <div className="navbar  ">
+  <div className="navbar-start w-full">
+    <div className="dropdown w-full">
+      <label tabIndex={0} className="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </label>
+      <ul tabIndex={0} className="bg-base-100 menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-full">
+      <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/workwithus">Work with us</Link></li>
+                    <li><Link href="/">Contacts</Link></li>
+                    <li className="underline underline-offset-8 decoration-green-500"><Link href="/"> Catalogue</Link></li>
+      </ul>
+    </div>
+    
+  </div>
+  <div className=" hidden lg:flex md:w-full">
+    <ul className="menu menu-horizontal md:w-full px-8 text-white xl:text-xl lg:text-sm lg:justify-end lg:mr-1">
+    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/workwithus">Work with us</Link></li>
+                    <li><Link href="/">Contacts</Link></li>
+                    <li className="underline underline-offset-8 decoration-green-500"><Link href="/"> Catalogue</Link></li>
+    </ul>
+  </div>
+  
+</div>
+    )
+}
 
-    </div>*/}
+
+
+
+//${toggleClass ? 'left-0': 'left-[-100%]'} top-[11%]
+{/*
+<nav className="flex justify-end selection: items-center lg:absolute w-[92%] lg:left-[4%] mx-auto  z-50 py-2 lg:py-7">
+          
               <div className="flex items-center gap-6 lg:hidden">
                     <button className="cursor-pointer" onClick={()=>{
                         setToggleClass(!toggleClass)
@@ -50,10 +78,5 @@ export default function Navbar(){
             
             
         </nav>
-    )
-}
 
-
-
-
-//${toggleClass ? 'left-0': 'left-[-100%]'} top-[11%]
+*/}
