@@ -61,18 +61,20 @@ export default function Catalogue(){
             <button className="btn btn-active font-cinzelFont">Download</button>
             </div>
             </div>
-            <div className="w-full h-full flex flex-wrap justify-center items-center gap-2 pb-16">
+            <div className="w-full h-full flex flex-wrap justify-center items-center gap-4 pb-16">
             
            {
             specials.map((special,index)=>{
                 return(
-                    <div key={index} style={{"backgroundColor":`${special.color}`}} className="card w-96 text-primary-content">
-                        <div className="card-body">
-                        <h2 className="card-title">{special.special}</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
-                    
+                    <div key={index} className="card w-96 bg-base-100 shadow-xl font-cinzelFont  border-solid border-2 border-red-500   ">
+                    <div className="card-body">
+                      <h2 className="card-title">{special.special}</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div className="card-actions justify-end">
+                        <button className="btn bg-logoColor">See in Store</button>
+                      </div>
                     </div>
-                    </div>
+                  </div>
                 )
             })
            }

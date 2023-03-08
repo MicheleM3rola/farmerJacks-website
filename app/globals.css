@@ -13,8 +13,8 @@
             mask: var(--mask);
   }
 .catalogue{
-  background: rgb(4,69,2);
-background: linear-gradient(149deg, rgba(4,69,2,1) 0%, rgba(71,81,91,1) 73%, rgba(142,255,0,1) 100%);
+  background: rgb(71,91,81);
+background: linear-gradient(156deg, rgba(71,91,81,1) 0%, rgba(71,91,81,1) 57%, rgba(30,238,36,1) 100%);
 }
   
 }
