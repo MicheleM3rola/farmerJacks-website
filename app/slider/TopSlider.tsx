@@ -5,10 +5,10 @@ import logoCentro from "../../public/fjcentro2.png"
 
 export default function TopSlider(){
     return(
-        <section className=' container grid gap-4 text-center max-w-[100%] md:max-w-[70%] mt-14 text-white'>
+        <section className=' container py-10 grid gap-4 text-center max-w-[100%] md:max-w-[70%] mt-14 text-white'>
             <div>
                 <div className="flex justify-center items-center">
-                    <Image src={logoCentro} alt="Centro logo" width={70} height={70}/>
+                    <Image src={logoCentro} alt="Centro logo" width={50} height={50}/>
                     <small className='tracking-widest uppercase text-sm font-cinzelFont font-normal text-white'>At Centro</small>
                 </div>
             

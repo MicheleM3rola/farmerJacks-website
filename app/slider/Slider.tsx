@@ -23,7 +23,7 @@ export default function SliderImg(){
 
     return(
       <>
-        <section  className=" container grid gap-4 text-center sm:text-left">
+        <section  className=" container py-10 text-center sm:text-left">
           <div className="relative">
             <div className="hidden sm:block absolute w-8 bg-green-500 -left-4 h-full"></div>
           <div className="ml-7">
@@ -43,7 +43,7 @@ export default function SliderImg(){
           </div>
           </div>
         </section>
-        <div className="-mt-10 sm:-mt-20 lg:-mt-36 container xs:w-screen ">
+        <div className=" container xs:w-screen pb-14 ">
         
             <div id="content" className="flex transition-transform duration-500 overflow-x-auto scroll-smooth carousel">
           

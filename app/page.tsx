@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import AllSpecial from './catalogue/AllSpecials'
 import Catalogue from './catalogue/Catalogue'
 import Hero from './hero/Hero'
 import SliderImg from './slider/Slider'
@@ -13,9 +14,10 @@ export default function Home() {
     
     <div className='flex flex-col items-center justify-center'>
       <Hero/>
-     <main className=' relative  pb-16 -mb-16 grid gap-16 sm:gap-24 lg:gap-40 overflow-hidden bg-transparent'>
+     <main className=' relative  pb-16 -mb-16  overflow-hidden bg-transparent'>
           <TopSlider/>
           <SliderImg/>
+          <AllSpecial/>
           <Catalogue/>
      </main>
      
