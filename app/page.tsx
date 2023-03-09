@@ -13,7 +13,7 @@ export default function Home() {
     
     <div className='flex flex-col items-center justify-center'>
       <Hero/>
-     <main className=' relative mt-16 sm:mt-24 lg:mt-40 pb-16 -mb-16 grid gap-16 sm:gap-24 lg:gap-40 overflow-hidden bg-white'>
+     <main className=' relative  pb-16 -mb-16 grid gap-16 sm:gap-24 lg:gap-40 overflow-hidden bg-transparent'>
           <TopSlider/>
           <SliderImg/>
           <Catalogue/>
