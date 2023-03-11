@@ -1,4 +1,5 @@
-
+import Image from "next/image"
+import logo from '../../public/fjCentro.jpg'
 
 const specials=[
     {
@@ -41,8 +42,12 @@ const specials=[
 
 export default function AllSpecial(){
     return(
-        <div className="border-t-4 border-green-500  w-full h-full flex flex-wrap justify-center items-center gap-4 pt-28 pb-14 bg-white">
-            
+        <div className="  w-full h-full flex  flex-wrap justify-center items-center gap-4 pt-28 pb-14 allSpecial">
+            <div className="w-full flex justify-center items-center gap-3 my-20">
+            <Image src={logo} alt="logo width={60}"width={90} height={90} className="rounded-lg border border-solid border-white drop-shadow-2xl"/>
+            <h1 className=" text-5xl font-cinzelFont font-bold  text-farmer drop-shadow-2xl">Farmer Jack's<span className="pl-2 uppercase text-white">Forrestield</span> </h1>
+
+            </div>
            {
             specials.map((special,index)=>{
                 return(

@@ -1,3 +1,4 @@
+import ManagerSpecial from '@/components/managerSpecial'
 import Image from 'next/image'
 import AllSpecial from './catalogue/AllSpecials'
 import Catalogue from './catalogue/Catalogue'
@@ -19,6 +20,7 @@ export default function Home() {
           <SliderImg/>
           <AllSpecial/>
           <Catalogue/>
+          <ManagerSpecial/>
      </main>
      
     </div>

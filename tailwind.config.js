@@ -17,7 +17,9 @@ module.exports = {
       colors: {
         navbkg: "#475159",
         bkgpic: "#EFF3F6",
-        logoColor:"rgb(71,81,91)"
+        logoColor:"rgb(71,81,91)",
+        farmer:"rgb(150,201,79)"
+
       },
       dropShadow: {
         "text-sm": "1px 1px 0px rgba(0, 0, 0, 0.90)",

@@ -27,8 +27,8 @@ export default function SliderImg(){
           <div className="relative">
             <div className="hidden sm:block absolute w-8 bg-green-500 -left-4 h-full"></div>
           <div className="ml-7">
-            <small className="tracking-widest text-white uppercase font-cinzelFont text-sm">Off The Beaten Path</small>
-            <h2  className="text-3xl font-normal tracking-wide font-cinzelFont text-md text-white">Places without People</h2>
+            <small className="tracking-widest text-white uppercase font-cinzelFont text-sm">Edimburg road 51</small>
+            <h2  className="text-3xl font-normal tracking-wide font-cinzelFont text-md text-white">Our Departments</h2>
           </div>
           <div className="flex flex-wrap sm:flex-nowrap justify-center sm:justify-between items-center space-x-4 space-y-4">
             <p className="text-muted max-w-2xl font-cinzelFont text-base ml-7 text-white">We specialize in finding places no one else knows about. Here are a few of our favorite spots for true adventurers.</p>

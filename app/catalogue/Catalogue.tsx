@@ -14,11 +14,7 @@ export default function Catalogue(){
 
     return(
         <section className="flex flex-col justify-center items-center w-full bg-white">
-            <div className="w-full flex justify-center items-center gap-3 my-20">
-            <Image src={logo} alt="logo width={60}"width={90} height={90} className="rounded-lg border border-solid border-white "/>
-            <h1 className=" text-5xl font-cinzelFont  text-black">Welcome to Farmer Jack's Forrestield</h1>
-
-            </div>
+            
             
             <div className=" flex justify-center items-center">
             <CatalogueSlider/>

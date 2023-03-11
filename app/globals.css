@@ -16,6 +16,11 @@
   background: rgb(71,91,81);
 background: linear-gradient(156deg, rgba(71,91,81,1) 0%, rgba(71,91,81,1) 57%, rgba(30,238,36,1) 100%);
 }
+
+.allSpecial{
+  background: rgb(71,81,91);
+background: linear-gradient(180deg, rgba(71,81,91,1) 0%, rgba(255,255,255,0.6054796918767507) 45%, rgba(255,255,255,1) 100%);
+}
   
 }
 .navbar {
@@ -110,14 +115,13 @@ display: none;
 }
 
 html {
-  background: rgb(71,81,91);
-background: linear-gradient(149deg, rgba(71,81,91,1) 0%, rgba(71,81,91,1) 73%, rgba(51,112,9,0.8519782913165266) 100%);
-background-repeat: no-repeat;
+  
+  background-color: rgb(71,81,91);
   overflow-x: hidden;
 }
 
 body {
- 
+  background-color: rgb(71,81,91);
  
 }
 
