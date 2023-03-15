@@ -11,25 +11,14 @@ import { library } from "@fortawesome/fontawesome-svg-core"
 library.add( faCircleArrowLeft,faCircleArrowRight)
 
 
-const slideStyles = {
-    width: "100%",
-    height: "100%",
-    borderRadius: "10px",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  };
 
-  const slidesContainerStyles = {
-    display: "flex",
-    height: "100%",
-    transition: "transform ease-out 0.3s",
-  };
 
 
 export default function CatalogueSlider(){
     const [currentIndex, setCurrentIndex] = useState(0);
-    const parentWidth = 50;
+    
 
+  
     const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0;
         const newIndex = isFirstSlide ? CatPagesData.length - 1 : currentIndex - 1;
@@ -42,56 +31,30 @@ export default function CatalogueSlider(){
         setCurrentIndex(newIndex);
       }, [currentIndex, CatPagesData]);
 
-      const getSlideStylesWithBackground = (slideIndex:number) => ({
-        ...slideStyles,
-        backgroundImage: `url(${CatPagesData[slideIndex].src})`,
-        width: `${parentWidth}%`,
-      });
-      const getSlidesContainerStylesWithWidth = () => ({
-        ...slidesContainerStyles,
-        width: parentWidth * CatPagesData.length,
-        transform: `translateX(${-(currentIndex * parentWidth)}px)`,
-      });
-
+      
     return(
         <div className="w-1/2 flex flex-col justify-start items-center relative">
-        <div className="relative h-full">
+       
       
-      <div className="overflow-hidden h-full">
-        <div style={getSlidesContainerStylesWithWidth()}>
+      
+        <div className="carousel w-3/5 h-full mx-auto shadow-2xl rounded-lg">
           {CatPagesData.map((_, slideIndex) => (
             <div
               key={slideIndex}
-              style={getSlideStylesWithBackground(slideIndex)}
-            > Hello</div>
+              className="carousel-item w-full relative"
+            > 
+            <Image src={_.src} alt={_.alt} className="h-full w-full"/>
+            </div>
           ))}
+          
         </div>
-      </div>
+      
+        <button className=""> <FontAwesomeIcon icon= {faCircleArrowLeft} className="iconSpecialCatalogue"/></button>
+        <button className=""><FontAwesomeIcon icon= {faCircleArrowRight} className="iconSpecialCatalogue"/></button>
     
-    </div>
         </div>
     )
 }
 
 
 
-{/*
-<div className="carousel w-3/5 h-full mx-auto shadow-2xl rounded-lg ">
-                {
-                    CatPagesData.map((data,index)=>{
-                        return(
-                            <div key={index} className="carousel-item w-full relative">
-                                <Image src={data.src} alt={data.alt} className="h-full w-full"/>
-                            </div> 
-                        )
-                    })
-                }
-  </div> 
-                    <div className="flex gap-2">
-                        <button className=""> <FontAwesomeIcon icon= {faCircleArrowLeft} className="iconSpecialCatalogue"/></button>
-                         <button className=""><FontAwesomeIcon icon= {faCircleArrowRight} className="iconSpecialCatalogue"/></button>
-                    </div>
-
-
-
-*/ }
