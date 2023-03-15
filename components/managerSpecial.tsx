@@ -1,5 +1,5 @@
 export default function ManagerSpecial(){
     return(
-        <div> Hey</div>
+        <section></section>
     )
 }

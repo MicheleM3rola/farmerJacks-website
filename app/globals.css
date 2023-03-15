@@ -21,6 +21,15 @@ background: linear-gradient(156deg, rgba(71,91,81,1) 0%, rgba(71,91,81,1) 57%, r
   background: rgb(71,81,91);
 background: linear-gradient(180deg, rgba(71,81,91,1) 0%, rgba(255,255,255,0.6054796918767507) 45%, rgba(255,255,255,1) 100%);
 }
+
+.iconSpecial{
+  width: 25px;
+  height: 25px;
+}
+.iconSpecialCatalogue{
+  width: 35px;
+  height: 35px;
+}
   
 }
 .navbar {

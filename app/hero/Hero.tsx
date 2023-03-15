@@ -14,7 +14,7 @@ export default function Hero(){
             
                 <div className="h-full w-1/2 relative overflow-hidden box border-b-4 border-green-600">
                 
-                <Image src={heroImage} className="h-full w-full object-cover" alt="Hero Image" />
+                <Image src={heroImage} className="h-full w-full object-cover" alt="Hero Image"/>
                 
             </div>
             <div className="w-1/2  h-full relative">
