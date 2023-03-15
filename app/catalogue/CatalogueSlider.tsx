@@ -1,6 +1,6 @@
 'use client'
 import { useState,useCallback } from "react";
-import { CatPagesData } from "@/utils";
+import { CatalogueData } from "@/types";
 import Image from "next/image";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -14,11 +14,9 @@ library.add( faCircleArrowLeft,faCircleArrowRight)
 
 
 
-export default function CatalogueSlider(){
+export default function CatalogueSlider({CatPagesData}:{CatPagesData:CatalogueData[]}){
     const [currentIndex, setCurrentIndex] = useState(0);
     
-
-  
     const goToPrevious = () => {
         const isFirstSlide = currentIndex === 0;
         const newIndex = isFirstSlide ? CatPagesData.length - 1 : currentIndex - 1;
@@ -31,6 +29,7 @@ export default function CatalogueSlider(){
         setCurrentIndex(newIndex);
       }, [currentIndex, CatPagesData]);
 
+      console.log(CatPagesData)
       
     return(
         <div className="w-1/2 flex flex-col justify-start items-center relative">
