@@ -14,21 +14,17 @@ library.add( faCircleArrowLeft,faCircleArrowRight)
 
 
 export default function CatalogueSlider({CatPagesData}:{CatPagesData:CatalogueData[]}){
-    const [currentIndex, setCurrentIndex] = useState(0);
-    
-    const goToPrevious = () => {
-        const isFirstSlide = currentIndex === 0;
-        const newIndex = isFirstSlide ? CatPagesData.length - 1 : currentIndex - 1;
-        setCurrentIndex(newIndex);
-      };
+  const [current, setCurrent] = useState(0);
 
-      const goToNext = useCallback(() => {
-        const isLastSlide = currentIndex === CatPagesData.length - 1;
-        const newIndex = isLastSlide ? 0 : currentIndex + 1;
-        setCurrentIndex(newIndex);
-      }, [currentIndex, CatPagesData]);
+  const length = CatPagesData.length;
 
-      
+  const nextSlide = useCallback(() => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  }, [current, length]);
+
+  const prevSlide = useCallback(() => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  }, [current, length]);   
       
     return(
         <div className="w-1/2 flex flex-col justify-start items-center relative">
@@ -37,17 +33,24 @@ export default function CatalogueSlider({CatPagesData}:{CatPagesData:CatalogueDa
         <div className="carousel w-3/5 h-full mx-auto shadow-2xl rounded-lg relative">
         
           {CatPagesData.map((_, slideIndex) => (
-            <div
-              key={slideIndex}
-              className="carousel-item w-full relative"
-            > 
-            <Image src={_.src} alt={_.alt} className="h-full w-full"/>
-            
-            </div>
+
+            <>
+          
+            {
+              slideIndex === current &&(
+              
+                <div className="carousel-item w-full relative"> 
+              <Image src={_.src} alt={_.alt} className="h-full w-full"/>
+              
+              </div>
+              )
+            }
+          
+            </>
             
           ))}
-          <button onClick={goToPrevious} className="absolute left-0 top-1/2"> <FontAwesomeIcon icon= {faCircleArrowLeft} className="fa-2xl"/></button>  
-        <button onClick={goToNext} className="absolute right-0 top-1/2"><FontAwesomeIcon icon= {faCircleArrowRight} className="fa-2xl"/></button>
+          <button onClick={prevSlide} className="absolute left-0 top-1/2"> <FontAwesomeIcon icon= {faCircleArrowLeft} className="fa-2xl"/></button>  
+          <button onClick={nextSlide} className="absolute right-0 top-1/2"><FontAwesomeIcon icon= {faCircleArrowRight} className="fa-2xl"/></button>
         
         </div>
         
