@@ -1,20 +1,17 @@
-
-import './globals.css'
-import {Roboto} from "@next/font/google"
-
-
-import Navbar from './navigation/nav'
+import "./globals.css";
+import { Roboto } from "@next/font/google";
+import Navbar from "@/components/navigation/nav";
 
 const cinzel = Roboto({
-  variable:"--roboto-font",
-  weight:["400","300"],
-  subsets:['latin']
-})
+  variable: "--roboto-font",
+  weight: ["400", "300"],
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className={cinzel.variable}>
@@ -22,16 +19,14 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      
-      <head/>
-   
+
+      <head />
+
       <body>
-      
-         <Navbar/>
-      
+        <Navbar />
+
         {children}
-      
-        </body>
+      </body>
     </html>
-  )
+  );
 }
