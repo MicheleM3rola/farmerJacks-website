@@ -15,20 +15,20 @@ const specials=[
     special:"Managers Specials",
     color:"purple",
     bt:"See Below",
-    icons:<FontAwesomeIcon icon= {faWindowMaximize} className="iconSpecial" />
+    icons:<FontAwesomeIcon icon= {faWindowMaximize} className="fa-2xl" />
     },
     {
         special:"Monthly Deal",
         color:"blue",
         bt:"See in Store",
-        icons:<FontAwesomeIcon icon= {faStore} className="iconSpecial" />
+        icons:<FontAwesomeIcon icon= {faStore} className="fa-2xl" />
         
     },
     {
         special:"Everyday Specials",
         color:"orange",
         bt:"See in Store",
-        icons:<FontAwesomeIcon icon= {faStore} className="iconSpecial"/>
+        icons:<FontAwesomeIcon icon= {faStore} className="fa-2xl"/>
         
     
     },
@@ -36,7 +36,7 @@ const specials=[
         special:"Deal Depot Special",
         color:"yellow",
         bt:"See in Store",
-        icons:<FontAwesomeIcon icon= {faStore} className="iconSpecial"/>
+        icons:<FontAwesomeIcon icon= {faStore} className="fa-2xl"/>
         
     
     },  
@@ -44,7 +44,7 @@ const specials=[
         special:"Weekly Specials",
         color:"brown",
         bt:"Catalogue",
-        icons:<FontAwesomeIcon icon= {faNewspaper} className="iconSpecial"/>
+        icons:<FontAwesomeIcon icon= {faNewspaper} className="fa-2xl"/>
     
     }
 

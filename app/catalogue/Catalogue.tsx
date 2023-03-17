@@ -12,7 +12,8 @@ export default function Catalogue(){
         <section className="flex flex-col justify-center items-center w-full bg-white">
             
             
-            <div className=" flex justify-center items-center">
+            <div className=" w-full flex justify-center items-center">
+            
             <CatalogueSlider CatPagesData={CatPagesData}/>
             <div className="flex flex-col justify-center items-start text-black">
             <h2 className="text-5xl py-7 font-cinzelFont">Weekly Catalogue</h2>

@@ -13,7 +13,6 @@ library.add( faCircleArrowLeft,faCircleArrowRight)
 
 
 
-
 export default function CatalogueSlider({CatPagesData}:{CatPagesData:CatalogueData[]}){
     const [currentIndex, setCurrentIndex] = useState(0);
     
@@ -29,28 +28,29 @@ export default function CatalogueSlider({CatPagesData}:{CatPagesData:CatalogueDa
         setCurrentIndex(newIndex);
       }, [currentIndex, CatPagesData]);
 
-      console.log(CatPagesData)
+      
       
     return(
         <div className="w-1/2 flex flex-col justify-start items-center relative">
        
       
-      
-        <div className="carousel w-3/5 h-full mx-auto shadow-2xl rounded-lg">
+        <div className="carousel w-3/5 h-full mx-auto shadow-2xl rounded-lg relative">
+        
           {CatPagesData.map((_, slideIndex) => (
             <div
               key={slideIndex}
               className="carousel-item w-full relative"
             > 
             <Image src={_.src} alt={_.alt} className="h-full w-full"/>
+            
             </div>
+            
           ))}
-          
+          <button onClick={goToPrevious} className="absolute left-0 top-1/2"> <FontAwesomeIcon icon= {faCircleArrowLeft} className="fa-2xl"/></button>  
+        <button onClick={goToNext} className="absolute right-0 top-1/2"><FontAwesomeIcon icon= {faCircleArrowRight} className="fa-2xl"/></button>
+        
         </div>
-      
-        <button className=""> <FontAwesomeIcon icon= {faCircleArrowLeft} className="iconSpecialCatalogue"/></button>
-        <button className=""><FontAwesomeIcon icon= {faCircleArrowRight} className="iconSpecialCatalogue"/></button>
-    
+        
         </div>
     )
 }
