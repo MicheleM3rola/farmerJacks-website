@@ -1,8 +1,16 @@
+import Products from "./products";
+
 export default function ManagerSpecial() {
   return (
-    <section className="h-screen flex flex-col justify-center items-center">
-      <h1 className="text-5xl text-white">Manager's Special</h1>
-      <small className="text-white">{Date()}</small>
+    <section className=" flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center font-cinzelFont font-normal py-32 gap-3">
+        <h1 className="text-5xl text-green-500">Manager's Special</h1>
+        <small className="text-white">{Date()}</small>
+      </div>
+
+      <div>
+        <Products />
+      </div>
     </section>
   );
 }
