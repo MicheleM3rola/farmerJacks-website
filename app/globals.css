@@ -8,9 +8,7 @@
     clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
   }
   .boxTwo {
-    --mask: conic-gradient(from -142.5deg at right,#0000,#000 1deg 104deg,#0000 105deg) 50%/100% 28.67em;
-    -webkit-mask: var(--mask);
-            mask: var(--mask);
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
   }
 .catalogue{
   background: rgb(71,91,81);

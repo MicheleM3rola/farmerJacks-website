@@ -4,6 +4,7 @@ import Hero from "@/components/hero/Hero";
 import ManagerSpecial from "@/components/managerSpecial/managerSpecial";
 import SliderImg from "@/components/slider/Slider";
 import TopSlider from "@/components/slider/TopSlider";
+import Slogan from "@/components/slogan/Slogan";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <main className=" relative  pb-16 -mb-16  overflow-hidden bg-transparent">
         <TopSlider />
         <SliderImg />
+        <Slogan />
         <AllSpecial />
         <Catalogue />
         <ManagerSpecial />
