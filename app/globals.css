@@ -8,7 +8,7 @@
     clip-path: polygon(0 0, 100% 0, 76% 100%, 0% 100%);
   }
   .boxTwo {
-    clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
   }
 .catalogue{
   background: rgb(71,91,81);
@@ -117,12 +117,12 @@ display: none;
 
 html {
   
-  background-color: rgb(71,81,91);
+ background-color: white;
   overflow-x: hidden;
 }
 
 body {
-  background-color: rgb(71,81,91);
+  background-color: white;
  
 }
 

@@ -18,8 +18,8 @@ export default function SliderImg() {
 
   return (
     <>
-      <section className=" container py-10 text-center sm:text-left">
-        <div className="relative">
+      <section className=" py-10 text-center sm:text-left bg-logoColor w-full">
+        <div className="relative flex flex-col justify-center items-start w-1/2 mx-auto pt-10">
           <div className="hidden sm:block absolute w-8 bg-green-500 -left-4 h-full"></div>
           <div className="ml-7">
             <small className="tracking-widest text-white uppercase font-cinzelFont text-sm">
@@ -127,7 +127,7 @@ export default function SliderImg() {
           </div>
         </div>
       </section>
-      <div className=" container xs:w-screen pb-14 ">
+      <div className="xs:w-screen pb-14 pt-10 bg-logoColor">
         <div
           id="content"
           className="flex transition-transform duration-500 overflow-x-auto scroll-smooth carousel"

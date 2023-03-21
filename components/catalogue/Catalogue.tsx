@@ -4,7 +4,7 @@ import CatalogueSlider from "./CatalogueSlider";
 
 export default function Catalogue() {
   return (
-    <section className="flex flex-col justify-center items-center w-full bg-white pb-24 boxTwo border-t-2 border-green-700 border-w">
+    <section className="flex flex-col justify-center items-center w-full bg-white pb-24 ">
       <div className=" w-full flex justify-center items-center">
         <CatalogueSlider CatPagesData={CatPagesData} />
         <div className="flex flex-col justify-center items-start text-black">
