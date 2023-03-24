@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useRef, useEffect, useState } from "react";
+
 import { ImagesData } from "@/utils";
 import { SliderImagesData } from "@/types";
 

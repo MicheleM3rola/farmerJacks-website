@@ -8,9 +8,7 @@ export default function ManagerSpecial() {
         <small className="text-white">{Date()}</small>
       </div>
 
-      <div>
-        <Products />
-      </div>
+      <Products />
     </section>
   );
 }
