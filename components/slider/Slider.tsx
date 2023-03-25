@@ -20,7 +20,7 @@ export default function SliderImg() {
     <>
       <section className=" py-10 text-center sm:text-left bg-logoColor w-full">
         <div className="relative flex flex-col justify-center items-start w-1/2 mx-auto pt-10">
-          <div className="hidden sm:block absolute w-8 bg-green-500 -left-4 h-full"></div>
+          <div className="hidden sm:block absolute w-8 bg-farmer -left-4 h-full"></div>
           <div className="ml-7">
             <small className="tracking-widest text-white uppercase font-cinzelFont text-sm">
               Edimburg road 51

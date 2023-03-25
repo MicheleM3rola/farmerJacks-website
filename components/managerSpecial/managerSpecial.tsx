@@ -1,6 +1,9 @@
+'use client'
 import Products from "./products";
 
 export default function ManagerSpecial() {
+
+
   return (
     <section className=" flex flex-col justify-center items-center bg-logoColor boxTwo relative">
       <div className="flex flex-col justify-center items-center font-cinzelFont font-normal py-24 gap-3">
@@ -10,6 +13,7 @@ export default function ManagerSpecial() {
       <div className="xs:w-screen pb-14">
       <Products />
       </div>
+     
     </section>
   );
 }
