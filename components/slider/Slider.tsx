@@ -130,7 +130,7 @@ export default function SliderImg() {
       <div className="xs:w-screen pb-14 pt-10 bg-logoColor">
         <div
           id="content"
-          className="flex transition-transform duration-500 overflow-x-auto scroll-smooth carousel"
+          className="flex transition-transform duration-500 overflow-x-auto scroll-smooth carousel  w-10/12 mx-auto"
         >
           {ImagesData.map((data) => {
             return (
