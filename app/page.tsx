@@ -1,5 +1,6 @@
 import AllSpecial from "@/components/catalogue/AllSpecials";
 import Catalogue from "@/components/catalogue/Catalogue";
+import ToRename from "@/components/extraSection/ToRename";
 import Footer from "@/components/footer/Footer";
 import Hero from "@/components/hero/Hero";
 import ManagerSpecial from "@/components/managerSpecial/managerSpecial";
@@ -19,6 +20,7 @@ export default function Home() {
         <AllSpecial />
         <Catalogue />
         <ManagerSpecial />
+        <ToRename />
         <Footer />
       </main>
     </div>

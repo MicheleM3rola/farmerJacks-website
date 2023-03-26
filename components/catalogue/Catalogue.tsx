@@ -8,7 +8,9 @@ export default function Catalogue() {
       <div className=" w-full flex justify-center items-center">
         <CatalogueSlider CatPagesData={CatPagesData} />
         <div className="flex flex-col justify-center items-start text-black">
-          <h2 className="text-5xl py-7 font-cinzelFont">Weekly Catalogue</h2>
+          <h2 className="text-5xl py-7 font-cinzelFont font-bold">
+            Weekly Catalogue
+          </h2>
           <p className="text-lg w-1/2 mb-2 font-cinzelFont">
             The Catalogue contain the specials for the week, for the others,come
             and see us and you won't regret it

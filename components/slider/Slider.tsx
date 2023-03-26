@@ -20,7 +20,7 @@ export default function SliderImg() {
     <>
       <section className=" py-10 text-center sm:text-left bg-logoColor w-full">
         <div className="relative flex flex-col justify-center items-start w-1/2 mx-auto pt-10">
-          <div className="hidden sm:block absolute w-8 bg-farmer -left-4 h-full"></div>
+          <div className="hidden sm:block absolute w-8 bg-green-300 -left-4 h-full"></div>
           <div className="ml-7">
             <small className="tracking-widest text-white uppercase font-cinzelFont text-sm">
               Edimburg road 51
@@ -37,7 +37,7 @@ export default function SliderImg() {
             <div className="flex space-x-4">
               <button
                 onClick={scrollLeft}
-                className="grid place-items-center bg-green-200 hover:bg-green-600/90 rounded-full p-2 text-bkg focus:outline-none focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent disabled:bg-accent/20 disabled:text-accent"
+                className="grid place-items-center bg-green-300 hover:bg-green-600/90 rounded-full p-2 text-bkg focus:outline-none focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent disabled:bg-accent/20 disabled:text-accent"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ export default function SliderImg() {
               </button>
               <button
                 onClick={scrollRight}
-                className="grid place-items-center bg-green-200 hover:bg-green-600/90 rounded-full p-2 text-bkg focus:outline-none focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent disabled:bg-accent/20 disabled:text-accent"
+                className="grid place-items-center bg-green-300 hover:bg-green-600/90 rounded-full p-2 text-bkg focus:outline-none focus-visible:ring-4 ring-offset-2 ring-offset-bkg ring-accent disabled:bg-accent/20 disabled:text-accent"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
