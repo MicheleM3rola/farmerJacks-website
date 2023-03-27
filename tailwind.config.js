@@ -9,6 +9,10 @@ module.exports = {
     fontFamily: {
       cinzelFont: "var(--roboto-font)",
     },
+    backgroundImage: {
+      'bgImage': "url('/bgImage.jpg')",
+      
+    },
     extend: {
       screens: {
         xs: "425px",

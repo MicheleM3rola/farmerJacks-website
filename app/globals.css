@@ -117,13 +117,14 @@ display: none;
 
 html {
   
- background-color: white;
+ 
   overflow-x: hidden;
+
 }
 
 body {
-  background-color: white;
  
+ background-color: white;
 }
 
 a {

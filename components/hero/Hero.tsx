@@ -7,17 +7,17 @@ import fjBanner from "../../public/fjBan.jpg";
 
 export default function Hero() {
   return (
-    <header className=" h-screen flex justify-center items-center w-full bg-green-300">
+    <header className=" h-screen  flex justify-center items-center w-full">
       {/*<div className="absolute bg-gradient-to-t inset-0 -bottom-32 top-2/3 md:top-1/3 from-bkgpic to-transparent "></div>*/}
 
-      <div className="h-full w-1/2 relative overflow-hidden box border-b-4 border-green-600">
+      <div className="h-full relative overflow-hidden box-two border-b-4 border-green-600">
         <Image
           src={heroImage}
           className="h-full w-full object-cover"
           alt="Hero Image"
         />
       </div>
-      <div className="w-1/2  h-full relative">
+      <div className=" w-10/12 h-full relative bg-bgImage bg-cover">
         <div className="flex flex-col justify-center items-end h-full mr-16 gap-6">
           <Image
             src={fjBanner}
@@ -37,3 +37,4 @@ export default function Hero() {
     </header>
   );
 }
+//Image by <a href="https://www.freepik.com/free-vector/abstract-background-with-squares_15276013.htm#query=website%20background&position=16&from_view=keyword&track=ais">Freepik</a>
