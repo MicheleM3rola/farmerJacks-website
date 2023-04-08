@@ -10,15 +10,18 @@ export default function Hero() {
     <header className=" h-screen  flex justify-center items-center w-full">
       {/*<div className="absolute bg-gradient-to-t inset-0 -bottom-32 top-2/3 md:top-1/3 from-bkgpic to-transparent "></div>*/}
 
-      <div className="h-full relative overflow-hidden box-two border-b-4 border-green-600">
-        <Image
-          src={heroImage}
-          className="h-full w-full object-cover"
-          alt="Hero Image"
-        />
-      </div>
-      <div className=" w-10/12 h-full relative bg-bgImage bg-cover">
-        <div className="flex flex-col justify-center items-end h-full mr-16 gap-6">
+      <div className=" w-full h-full relative bg-bgImage bg-cover flex justify-between items-center ">
+        <div className="w-full flex justify-end items-center flex-1">
+          <div className="w-10/12 relative overflow-hidden box-two rounded-2xl -rotate-6 shadow-xl">
+            <Image
+              src={heroImage}
+              className="h-full w-full object-cover"
+              alt="Hero Image"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-end h-full mr-16 gap-6 flex-1">
           <Image
             src={fjBanner}
             width={700}

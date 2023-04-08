@@ -48,7 +48,7 @@ const specials = [
 
 export default function AllSpecial() {
   return (
-    <div className="  w-full h-full flex  flex-wrap justify-center items-center gap-4 pt-28 pb-14 bg-white relative">
+    <div className="  w-full h-full flex  flex-wrap justify-center items-center gap-4 pt-10 pb-14 bg-white relative">
       <div className="w-full flex justify-center items-center gap-3 my-20">
         <Image
           src={logo}
