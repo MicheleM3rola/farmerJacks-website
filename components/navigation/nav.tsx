@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import FjLogo from "../../public/fjcentro.png";
+import FjLogo from "../../public/fjCentro.jpg";
 
 export default function Navbar() {
   //const[toggleClass,setToggleClass]=useState(false)
@@ -10,6 +10,15 @@ export default function Navbar() {
   return (
     <div className="navbar z-50 font-cinzelFont ">
       <div className="navbar-start w-full">
+        <div className="w-full pl-8">
+          <Image
+            src={FjLogo}
+            alt="logo width={60}"
+            width={90}
+            height={90}
+            className="rounded-lg border border-solid border-white drop-shadow-2xl"
+          />
+        </div>
         <div className="dropdown w-full">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
