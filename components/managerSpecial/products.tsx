@@ -29,11 +29,11 @@ export default function Products() {
       className="flex transition-transform duration-500 overflow-x-auto scroll-smooth carousel w-10/12 mx-auto"
     >
       <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 pr-4 ">
-        <div className="card card-compact w-80 bg-base-100 shadow-xl">
+        <div className="card card-compact w-80 shadow-xl bg-logoColor">
           <figure className="h-60 w-full">
             <img src="/img2.jpg" alt="Product pic" className="w-full" />
           </figure>
-          <div className="card-body font-cinzelFont font-normal">
+          <div className="card-body font-cinzelFont font-normal text-white">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
@@ -42,64 +42,64 @@ export default function Products() {
           </div>
         </div>
       </div>
-      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4 ">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0  pr-4 ">
+        <div className="card card-compact w-80  shadow-xl bg-logoColor">
           <figure className="h-60 w-full">
             <img src="/img1.jpg" alt="Product pic" className="w-full" />
           </figure>
-          <div className="card-body">
+          <div className="card-body font-cinzelFont font-normal text-white">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn btn-primary bg-green-500">Buy Now</button>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4 ">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 pr-4 ">
+        <div className="card card-compact w-80 shadow-xl bg-logoColor">
           <figure className="h-60 w-full">
             <img src="/img3.jpg" alt="Product pic" className="w-full" />
           </figure>
-          <div className="card-body">
+          <div className="card-body font-cinzelFont font-normal text-white">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn btn-primary bg-green-500">Buy Now</button>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4 ">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0  pr-4 ">
+        <div className="card card-compact w-80 bg-logoColor shadow-xl">
           <figure className="h-60 w-full">
             <img src="/img4.jpg" alt="Product pic" className="w-full" />
           </figure>
-          <div className="card-body">
+          <div className="card-body font-cinzelFont font-normal text-white">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn btn-primary bg-green-500">Buy Now</button>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4 ">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0  pr-4 ">
+        <div className="card card-compact w-80 bg-logoColor shadow-xl">
           <figure className="h-60 w-full">
             <img src="/img5.jpg" alt="Product pic" className="w-full" />
           </figure>
-          <div className="card-body">
+          <div className="card-body font-cinzelFont font-normal text-white">
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn btn-primary bg-green-500">Buy Now</button>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 xs:basis-96 pr-4 ">
-        <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="relative w-full xs:w-auto flex-grow flex-shrink-0 pr-4 ">
+        <div className="card card-compact w-96 bg-logoColor shadow-xl">
           <figure className="h-60 w-full">
             <img src="/img6.jpg" alt="Product pic" className="w-full" />
           </figure>
@@ -107,7 +107,7 @@ export default function Products() {
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn btn-primary bg-green-500">Buy Now</button>
             </div>
           </div>
         </div>
